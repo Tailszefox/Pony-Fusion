@@ -2,6 +2,7 @@ Pony-Fusion
 ===========
 
 By Tailszefox
+
 Based on the TV show My Little Pony created by Hasbro, DHX Media and Studio B,
 and developed by Lauren Faust.
 
