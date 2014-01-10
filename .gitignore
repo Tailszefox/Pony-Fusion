@@ -1,0 +1,13 @@
+# Bootstrap is not included for licencing reasons.
+# The file bootstrap.min.css needs to be in the css directory, 
+# and bootstrap.min.js needs to be in the js directory.
+# Or you can just link to the files remotly by changing the links in index.php
+
+bootstrap*.css
+bootstrap*.js
+
+# Again, licensing reasons makes this file not possible to include.
+# Just put any file named merp.ogg in a directored named merp to have it played for the easter egg.
+
+merp.ogg
+

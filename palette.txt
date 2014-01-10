@@ -1,0 +1,19 @@
+This file is a reminder of what each colour in the image's palette corresponds to.
+It's not used by the program, but without it, I'd forget which is which.
+Note that in the actual PNG file, the colour 0 actually codes the transparency.
+GIMP ignores it and starts the palette indexing on the next colour, though, at 0.
+
+0 : skin
+1 : skin outline
+2 : mane
+3 : mane (darker)
+4 : mane outline
+5 : eyes
+6 : eyes smaller
+7 : eyeliner
+8 : cutie mark
+9 : cutie mark (darker)
+10 : black
+11 : white
+12 - 13 - 14 : supplementary colours
+15 : pupil (usually black)
