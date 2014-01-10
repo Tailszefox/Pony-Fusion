@@ -47,8 +47,17 @@ if(!isset($faqIncluded))
 
 <em>Technical stuff</em>
 <dl>
-    <dt>You say the application is under a CC licence, but I don't see any way to get the whole code anywhere.</dt>
-    <dd>I plan to put a ZIP file containing all the source code once everything has been polished. In the meantime, you can contact me directly if you need or want to see the source code for some reason, I'll be glad to share it!</dd>
+    <dt>You say the application is under the GPL, but I don't see any way to get the whole code anywhere.</dt>
+    <dd>You can get the full source code at <a href="https://github.com/Tailszefox/Pony-Fusion">https://github.com/Tailszefox/Pony-Fusion</a>. It's a git repository, so you're free to do whatever you want that you usually do with git repositories!</dd>
+
+    <dt>Can I fork that repository and make my own version?</dt>
+    <dd>Feel free! That's what the GPL is for.</dd>
+
+    <dt>Do you accept pull requests?</dt>
+    <dd>I can if the change made is really important or corrects a critical flaw. Otherwise, I prefer not to: if you see a small thing that you would like changed, don't hesitate to contact me instead and I'll see if the change in question can be done.</dd>
+
+    <dt>Where's that little GPL icon from?</dt>
+    <dd><a href="http://becomingaglider.wordpress.com/2010/08/25/a-change-of-copyright-plus-free-gpl-banner/">http://becomingaglider.wordpress.com/2010/08/25/a-change-of-copyright-plus-free-gpl-banner/</a>. This icon is under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</dd>
 
     <dt>So did you do each individual combination yourself?</dt>
     <dd>Fortunately, no. With the number of ponies, that would amount to...well, quite a lot. The process of swapping the colours is automated. The only thing that is done manually is creating a palette for each pony. See the answer below for more details.</dd>
