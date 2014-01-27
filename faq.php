@@ -32,8 +32,11 @@ if(!isset($faqIncluded))
     <dt>One of the vectors you used is mine, and I'd like you to remove it.</dt>
     <dd>No issue! I made sure that I could use all the vectors I put here, and I take care to put a link back to the original, but if I made a mistake or if the conditions changed, don't hesitate to contact me using the <em>Contact</em> link at the bottom of the page. Once we've cleared everything, I'll remove your vector and use another one.</dd>
 
-    <dt>Are you going to add <em>[some pony from the show who isn't on the list yet]</em>?</dt>
-    <dd>Maybe! The list is more or less done for now, but if I get requests for a particular pony who isn't there yet, I may consider adding it.</dd>
+    <dt>You're missing [some pony from the show who only appeared in season 4]!</dt>
+    <dd>For now, I decided to stop at season 3 and wait until the end of season 4 to see if I'll add any pony that appeared during it. Check back later!</dd>
+
+    <dt>Are you going to add <em>[some pony from the show who appeared prior to season 4]</em>?</dt>
+    <dd>I added all the ponies that I found to be relevant or interesting, which meant leaving out some of them. If I get some requests for a particular pony, though, I'll consider it. Just remember that it needs to be a pony that appeared prior to season 3.</dd>
 
     <dt>Are you going to add <em>[some OC]</em> or <em>[some non-canon pony]</em>?</dt>
     <dd>Sorry, but no. I want to stay focused on the ponies we actually see on the show. Including everyone's OC would be a never-ending task.</dd>
