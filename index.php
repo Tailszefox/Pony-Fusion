@@ -208,7 +208,7 @@ else
         {
             $("#to").find("option").removeAttr("disabled");
             $("#from").find("option").removeAttr("disabled");
-            
+
             var nbPonies = $("#from option").size();
 
             if(which == 0)
@@ -320,10 +320,12 @@ else
                     if(current == "vinyl")
                     {
                         $("#from option[value='vinyl']").val("vinyl2");
+                        $("#to option[value='vinyl']").val("vinyl2");
                     }
                     else
                     {
-                        $("#from option[value='vinyl2']").val("vinyl");   
+                        $("#from option[value='vinyl2']").val("vinyl");
+                        $("#to option[value='vinyl']").val("vinyl2");
                     }
 
                     getNewFusion();
