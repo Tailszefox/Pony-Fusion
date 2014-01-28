@@ -26,7 +26,14 @@ for($i = 0; $i < imagecolorstotal($from); $i++)
             echo "\n";
         }
 
-        imagecolorset($from, $i, $colorFrom["red"], $colorFrom["green"], $colorFrom["blue"]);
+        if($getFrom == $getTo)
+        {
+            imagecolorset($from, $i, 255 - $colorFrom["red"], 255 - $colorFrom["green"], 255 - $colorFrom["blue"]);
+        }
+        else
+        {
+            imagecolorset($from, $i, $colorFrom["red"], $colorFrom["green"], $colorFrom["blue"]);
+        }
     }
 }
 

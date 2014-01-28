@@ -30,7 +30,19 @@ if(!empty($from) && !empty($to))
 
     ?>
     <div id="resultDiv" class="well">
-    <p id="name"><?php echo ucfirst($ponies[$from]["first"]) ?><?php echo $ponies[$to]["second"] ?></p>
+    <?php 
+    if($from == $to)
+    {
+        require("zalgo.php");
+        $name = ucfirst($ponies[$from]["first"]) . $ponies[$to]["second"];
+
+        ?><p id="name"><?php echo zalgo($name); ?></p><?php
+    }
+    else
+    {
+        ?><p id="name"><?php echo ucfirst($ponies[$from]["first"]) ?><?php echo $ponies[$to]["second"] ?></p><?php
+    }
+    ?>
 
     <p><a href="<?php echo $imgUrl ?>"><img id="resultImage" src="<?php echo $imgUrl ?>" /></a></p>
 
