@@ -15,7 +15,7 @@ if(!isset($faqIncluded))
 
 <dl>
     <dt>What does this thing even do?</dt>
-    <dd>It applies the colour scheme of one pony to another pony. With the list on the left, you pick which pony you want to recolour. With the list on the right, you pick which pony's colour scheme you want to use. You'll get a brand new pony with some weird colours. Unless you picked the same pony in both lists. In that case, it's just going to be your usual pony.</dd>
+    <dd>It applies the colour scheme of one pony to another pony. With the list on the left, you pick which pony you want to recolour. With the list on the right, you pick which pony's colour scheme you want to use. Voilà! You'll get a brand new pony with some weird colours.</dd>
 
     <dt>So it takes the colours from one pony, and then dyes another pony with it?</dt>
     <dd>Basically.</dd>
