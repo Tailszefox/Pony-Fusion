@@ -186,8 +186,17 @@ else
 
         function getNewFusion()
         {
+            $("#to").find("option").removeAttr("disabled");
+            $("#from").find("option").removeAttr("disabled");
+
             var from = $("#from").val();
             var to = $("#to").val();
+            var fromSelected = $("#from")[0].selectedIndex;
+            var toSelected = $("#to")[0].selectedIndex;
+
+            $("#to")[0].options[fromSelected].disabled = true;
+
+            $("#from")[0].options[toSelected].disabled = true;
 
             jQuery.get('fusion_ajax.php', {from: from, to: to}, function(data, textStatus, xhr) {
               $("#resultDivContent").html(data);
@@ -197,6 +206,9 @@ else
 
         function randomizePonies(which)
         {
+            $("#to").find("option").removeAttr("disabled");
+            $("#from").find("option").removeAttr("disabled");
+            
             var nbPonies = $("#from option").size();
 
             if(which == 0)
@@ -245,6 +257,9 @@ else
         });
 
         $("#buttonSwap").click(function (e) {
+            $("#to").find("option").removeAttr("disabled");
+            $("#from").find("option").removeAttr("disabled");
+
             var from = $("#from").val();
             var to = $("#to").val();
 
