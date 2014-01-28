@@ -325,7 +325,7 @@ else
                     else
                     {
                         $("#from option[value='vinyl2']").val("vinyl");
-                        $("#to option[value='vinyl']").val("vinyl2");
+                        $("#to option[value='vinyl2']").val("vinyl");
                     }
 
                     getNewFusion();
