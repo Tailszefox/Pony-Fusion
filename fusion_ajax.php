@@ -46,7 +46,7 @@ if(!empty($from) && !empty($to))
 
     <p><a href="<?php echo $imgUrl ?>"><img id="resultImage" src="<?php echo $imgUrl ?>" /></a></p>
 
-    <p> Source: <a href="<?php echo $ponies[$from]["source"] ?>" id="sourceLink"><?php echo $ponies[$from]["source"] ?></a><br />
+    <p id="resultBottom"> Source: <a href="<?php echo $ponies[$from]["source"] ?>" id="sourceLink"><?php echo $ponies[$from]["source"] ?></a><br />
         <a href="<?php echo $linkUrl ?>">Permalink to this fusion</a></p>
 
     </div>
