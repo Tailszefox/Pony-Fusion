@@ -23,6 +23,7 @@ $ponies = array(
     "bigmac"    => array("filename" => './bigmac.png',      "first" => "Big Mac",           "second" => "intosh",   "source" => "http://fav.me/d4vnf8c"),
     "shining"   => array("filename" => './shining.png',     "first" => "Shining",           "second" => " Armor",   "source" => "http://fav.me/d5m9yay"),    
     "blueblood" => array("filename" => './blueblood.png',   "first" => "Blue",              "second" => "blood",    "source" => "http://fav.me/d3rh8rk"),
+    "braeburn"  => array("filename" => './braeburn.png',    "first" => "Brae",              "second" => "burn",     "source" => "http://fav.me/d5rznvn"),
     "break5"    => "Zebras",
     "zecora"    => array("filename" => './zecora.png',      "first" => "Zeco",              "second" => "ra",       "source" => "http://fav.me/d5bfzw0"),
     "break6"    => "Antagonists and such",
