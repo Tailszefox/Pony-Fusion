@@ -28,11 +28,11 @@ for($i = 0; $i < imagecolorstotal($from); $i++)
 
         if($getFrom == $getTo)
         {
-            imagecolorset($from, $i, 255 - $colorFrom["red"], 255 - $colorFrom["green"], 255 - $colorFrom["blue"]);
+            imagecolorset($from, $i, 255 - $colorFrom["red"], 255 - $colorFrom["green"], 255 - $colorFrom["blue"], $colorFrom["alpha"]);
         }
         else
         {
-            imagecolorset($from, $i, $colorFrom["red"], $colorFrom["green"], $colorFrom["blue"]);
+            imagecolorset($from, $i, $colorFrom["red"], $colorFrom["green"], $colorFrom["blue"], $colorFrom["alpha"]);
         }
     }
 }
