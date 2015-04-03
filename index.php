@@ -45,8 +45,10 @@ else
 <head>
     <title>Pony Fusion</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/style-small.css" rel="stylesheet" media="screen and (max-width: 800px)">
 </head>
 <body>
     <div id="faqWrapper">
@@ -117,7 +119,7 @@ else
             ?>
         </select>
         </p>
-        <p><button type="submit" class="btn btn-info" id="buttonRandomizeFrom">Randomize this one</button> <button type="submit" class="btn btn-info" id="buttonRandomize">Randomize both</button> <button type="submit" class="btn btn-info" id="buttonRandomizeTo">Randomize that one</button></p>
+        <p><button type="submit" class="btn btn-info buttonsRandomize" id="buttonRandomizeFrom">Randomize <span class="leftAndRight">this one</span><span class="topAndBottom">top one</span></button> <button type="submit" class="btn btn-info buttonsRandomize" id="buttonRandomize">Randomize both</button> <button type="submit" class="btn btn-info buttonsRandomize" id="buttonRandomizeTo">Randomize <span class="leftAndRight">that one</span><span class="topAndBottom">bottom one</span></button></p>
         <noscript><p><button type="submit" class="btn btn-primary">Fusion</button></p></noscript>
         </form>
 

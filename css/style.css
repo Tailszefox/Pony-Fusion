@@ -72,6 +72,11 @@ body
     margin-right: 90px;
 }
 
+.buttonsRandomize .topAndBottom
+{
+    display: none;
+}
+
 #buttonRandomizeTo
 {
     margin-left: 90px;
@@ -101,7 +106,6 @@ body
 #legal
 {
     background-color: #e5e5e5;
-    height: 20px;
     text-align: left;
     margin: auto;
     margin-left: 5px;

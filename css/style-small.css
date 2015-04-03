@@ -1,0 +1,65 @@
+.fusionChoice
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#from
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#to
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#buttonSwap
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonsRandomize
+{
+    width: 90%;
+    margin: 5px;
+    text-align: center;
+}
+
+.buttonsRandomize .topAndBottom
+{
+    display: inline;
+}
+
+.buttonsRandomize .leftAndRight
+{
+    display: none;
+}
+
+#buttonRandomizeFrom
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#buttonRandomizeTo
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#buttonRandomizeTo
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#legal
+{
+    position: static;
+}
