@@ -2,6 +2,7 @@
 if(!isset($faqIncluded))
 {
 ?>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Pony Fusion - FAQ</title>
