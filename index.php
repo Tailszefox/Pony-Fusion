@@ -136,7 +136,7 @@ else
     </div>
     <div id="legal" class="well">
         <p>
-            This application is released under <a rel="license" href="http://www.gnu.org/licenses/gpl.html"><img title="GPL v3 License" src="http://becomingaglider.files.wordpress.com/2011/02/gpl-v3-80x15-1.png" width="80" height="15" /></a> - See the source link for each vector's license
+            This application is released under <a rel="license" href="http://www.gnu.org/licenses/gpl.html"><img title="GPL v3 License" src="gpl_v3.png" width="80" height="15" /></a> - See the source link for each vector's license
             - <a href="http://www.mattyhex.net/CMR/">Celestia Redux font source</a> - <a href="faq.php" id="faqLink">FAQ</a> - <a href="mailto:&#116;&#097;&#105;&#108;&#115;&#064;&#116;&#097;&#105;&#108;&#115;&#122;&#101;&#102;&#111;&#120;&#046;&#110;&#111;&#045;&#105;&#112;&#046;&#099;&#111;&#109;?subject=Pony%20Fusion">Contact</a>
         </p>
     </div>
