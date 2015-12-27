@@ -24,8 +24,8 @@ if(!isset($faqIncluded))
     <dt>This looks a lot like <a href="http://pokemon.alexonsager.net/">Pokémon Fusion</a>. Except with ponies.</dt>
     <dd>Pony Fusion is heavily inspired by Pokémon Fusion. The idea and part of the layout were used as a base to create this ponified version. All of the code is original, though: nothing was actually taken from Pokémon Fusion, apart from the idea.</dd>
 
-    <dt>Unlike Pokémon Fusion, the ponies don't swap their faces or their cutie mark or something else!</dt>
-    <dd>It would be a bit harder to do something like that. But who knows, maybe at some point!</dd>
+    <dt>Unlike Pokémon Fusion, the ponies don't swap their faces or their cutie marks or something else!</dt>
+    <dd>It would be a bit harder to do something like that, and I'm not really sure how the faces could be swapped. The cutie marks, now that sounds more doable, but I can't really think of an easy and efficient way to do that. Sorry, you'll have to stick to colours for now!</dd>
 
     <dt>Can I use the result of one of the fusions somewhere else?</dt>
     <dd>You can share a link to this page anywhere you want, of course. As for the image itself, I don't hold any right to what the application creates. Just make sure to click the source link to check what the creator of the original vector allows you to do with it.</dd>
@@ -33,14 +33,14 @@ if(!isset($faqIncluded))
     <dt>One of the vectors you used is mine, and I'd like you to remove it.</dt>
     <dd>No issue! I made sure that I could use all the vectors I put here, and I take care to put a link back to the original, but if I made a mistake or if the conditions changed, don't hesitate to contact me using the <em>Contact</em> link at the bottom of the page. Once we've cleared everything, I'll remove your vector and use another one.</dd>
 
-    <dt>You're missing [some pony from the show who only appeared in season 4]!</dt>
-    <dd>For now, I decided to stop at season 3 and wait until the end of season 4 to see if I'll add any pony that appeared during it. Check back later!</dd>
+    <dt>You're missing <em>[some pony from the show]</em>!</dt>
+    <dd>I have to admit, I <em>kinda</em> stopped working on this. It's pretty much feature complete, so the only thing I can really add to it now is more ponies, and that aspect isn't the most interesting part of the project. That doesn't mean I won't ever update it again, as I may add one or two ponies from time to time, but don't expect some grand update with tons of ponies added at any point.</dd>
 
-    <dt>Are you going to add <em>[some pony from the show who appeared prior to season 4]</em>?</dt>
-    <dd>I added all the ponies that I found to be relevant or interesting, which meant leaving out some of them. If I get some requests for a particular pony, though, I'll consider it. Just remember that it needs to be a pony that appeared prior to season 3.</dd>
+    <dt>But! You're missing <em>[some pony from the show you feel is super important]</em>! What's the point of all this if you don't even have <em>[the aforementioned pony]</em>?</dt>
+    <dd>If I get a request for a pony in particular, I may have more motivation to add them. Feel free to send me an email with what pony you'd like to be added. Keep in mind that pony has to be <strong>from the show</strong>! Oh, and if you can add a link to a few vectors of the pony you want, so I don't have to hunt them down myself, that'd be swell.</dd>
 
-    <dt>Are you going to add <em>[some OC]</em> or <em>[some non-canon pony]</em>?</dt>
-    <dd>Sorry, but no. I want to stay focused on the ponies we actually see on the show. Including everyone's OC would be a never-ending task.</dd>
+    <dt>Oh! Can you add <em>[my really great OC]</em> or <em>[that pony from some fanfic]</em>?</dt>
+    <dd>Sorry, no can do. If I start adding everyone's OC, or all the fan-created ponies from fanfics, videos and drawings, the list would be endless...Okay, Fausticorn is technically an OC who never appeared on the show, but I think you get a free pass when you're the <em>creator</em> of the whole show.</dd>
 
     <dt>Some combinations look really weird.</dt>
     <dd>Since a lot of the process is automatic, some combinations may end up just looking extremely silly. I like to think it's part of the charm. Also, keep in mind that we're so used to how some ponies look that seeing them with a wildly different colour scheme is just going to look weird. Using Rainbow Dash's scheme on anyone usually results in something quite...unusual.</dd>
