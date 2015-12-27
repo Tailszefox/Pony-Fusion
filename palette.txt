@@ -13,7 +13,8 @@ GIMP ignores it and starts the palette indexing on the next colour, though, at 0
 7 : eyeliner
 8 : cutie mark
 9 : cutie mark (darker)
-10 : black
-11 : white
+10 : eyelashes (black)
+11 : eyes (usually white)
 12 - 13 - 14 : supplementary colours
-15 : pupil (usually black)
+15 : pupils (usually black)
+16 : teeth (white)
