@@ -42,6 +42,9 @@ if(!isset($faqIncluded))
     <dt>Oh! Can you add <em>[my really great OC]</em> or <em>[that pony from some fanfic]</em>?</dt>
     <dd>Sorry, no can do. If I start adding everyone's OC, or all the fan-created ponies from fanfics, videos and drawings, the list would be endless...Okay, Fausticorn is technically an OC who never appeared on the show, but I think you get a free pass when you're the <em>creator</em> of the whole show.</dd>
 
+    <dt>Shouldn't the CMC have their cutie mark?</dt>
+    <dd>When I first added them, they didn't have their cutie mark yet. Now I'm too lazy to redo their vector. They will forever be blank flanks here!</dd>
+
     <dt>Some combinations look really weird.</dt>
     <dd>Since a lot of the process is automatic, some combinations may end up just looking extremely silly. I like to think it's part of the charm. Also, keep in mind that we're so used to how some ponies look that seeing them with a wildly different colour scheme is just going to look weird. Using Rainbow Dash's scheme on anyone usually results in something quite...unusual.</dd>
 
