@@ -81,13 +81,13 @@ else
         <p>
         <select name="from" id="from" class="fusionChoice">
             <?php
-            if($from == "vinyl2")
+            if($from == "vinyl2" || $to == "vinyl2")
             {
                 $ponies["vinyl2"]["hidden"] = FALSE;
                 $ponies["vinyl"]["hidden"] = TRUE;
             }
 
-            if($from == "starlight2")
+            if($from == "starlight2" || $to == "starlight2")
             {
                 $ponies["starlight2"]["hidden"] = FALSE;
                 $ponies["starlight"]["hidden"] = TRUE;
