@@ -46,9 +46,27 @@ if(!empty($from) && !empty($to))
 
     <p><a href="<?php echo $imgUrl ?>"><img id="resultImage" src="<?php echo $imgUrl ?>" /></a></p>
 
-    <p id="resultBottom"> Source: <a href="<?php echo $ponies[$from]["source"] ?>" id="sourceLink"><?php echo $ponies[$from]["source"] ?></a><br />
-        <a href="<?php echo $linkUrl ?>">Permalink to this fusion</a></p>
-
+    <p id="resultBottom"> Source: 
+        <?php 
+        if(is_array($ponies[$from]["source"]))
+        {
+            foreach($ponies[$from]["source"] as $source)
+            {
+                ?>
+                <a href="<?php echo $source ?>" class="sourceLink"><?php echo $source ?></a>
+                <?php
+            }
+        }
+        else
+        {
+            ?>
+            <a href="<?php echo $ponies[$from]["source"] ?>" class="sourceLink"><?php echo $ponies[$from]["source"] ?></a>
+            <?php
+        }
+        ?>
+        <br />
+        <a href="<?php echo $linkUrl ?>">Permalink to this fusion</a>
+    </p>
     </div>
     <?php
 }
