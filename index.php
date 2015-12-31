@@ -87,6 +87,12 @@ else
                 $ponies["vinyl"]["hidden"] = TRUE;
             }
 
+            if($from == "starlight2")
+            {
+                $ponies["starlight2"]["hidden"] = FALSE;
+                $ponies["starlight"]["hidden"] = TRUE;
+            }
+
             foreach($ponies as $id => $properties)
             {
                 if(strpos($id, "break") !== FALSE)
@@ -174,7 +180,7 @@ else
                 {
                     var twilicaneDiv = $('<div id="twilicane"><img src="twilicane.png" /></div>');
                     $("#resultDiv").prepend(twilicaneDiv);
-                    $('<span id="sourceLinkTwilicaneSpan"> - </span><a href="http://fav.me/d6vlrbm" id="sourceLinkTwilicane">http://fav.me/d6vlrbm</a>').insertAfter("#sourceLink");
+                    $('<span id="sourceLinkTwilicaneSpan"> - </span><a href="http://fav.me/d6vlrbm" id="sourceLinkTwilicane">http://fav.me/d6vlrbm</a>').insertAfter(".sourceLink");
                 }
                 else
                 {
@@ -328,6 +334,29 @@ else
                     {
                         $("#from option[value='vinyl2']").val("vinyl");
                         $("#to option[value='vinyl2']").val("vinyl");
+                    }
+
+                    getNewFusion();
+                    event.preventDefault();
+                }
+            }
+
+            if(current == "starlight" || current == "starlight2")
+            {
+                var posX = event.pageX - $(this).offset().left
+                var posY = event.pageY - $(this).offset().top;
+
+                if(posX >= 190 && posX <= 230 && posY >= 380 && posY <= 460)
+                {
+                    if(current == "starlight")
+                    {
+                        $("#from option[value='starlight']").val("starlight2");
+                        $("#to option[value='starlight']").val("starlight2");
+                    }
+                    else
+                    {
+                        $("#from option[value='starlight2']").val("starlight");
+                        $("#to option[value='starlight2']").val("starlight");
                     }
 
                     getNewFusion();
