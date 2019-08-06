@@ -99,7 +99,7 @@ else
                 {
                     ?><optgroup label="<?php echo $properties ?>"></optgroup><?php
                 }
-                else if(!$properties["hidden"])
+                else if(isset($properties["hidden"]) === FALSE)
                 {
                     ?><option value="<?php echo $id ?>" <?php if($from == $id) { ?>selected="selected"<?php } ?>><?php echo $properties["first"] . $properties["second"] ?></option><?php
                 }
@@ -117,7 +117,7 @@ else
                 {
                     ?><optgroup label="<?php echo $properties ?>"></optgroup><?php
                 }
-                else if(!$properties["hidden"])
+                else if(isset($properties["hidden"]) === FALSE)
                 {
                     ?><option value="<?php echo $id ?>" <?php if($to == $id) { ?>selected="selected"<?php } ?>><?php echo $properties["first"] . $properties["second"] ?></option><?php
                 }
