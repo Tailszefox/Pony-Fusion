@@ -49,7 +49,8 @@ if(!isset($faqIncluded))
     <dd>Since a lot of the process is automatic, some combinations may end up just looking extremely silly. I like to think it's part of the charm. Also, keep in mind that we're so used to how some ponies look that seeing them with a wildly different colour scheme is just going to look weird. Using Rainbow Dash's scheme on anyone usually results in something quite...unusual.</dd>
 
     <dt>One combination in particular looks <strong>really</strong> weird. I think there's something wrong, even.</dt>
-    <dd>If it looks that weird, then it may be from an error in how the program works, or how I created the image. Send me an email with the combination you used or a link to it, and what the issue seems to be, and I'll see what I can do.</dd>
+    <dd>If it looks that weird, then it may be from an error in how the program works, or how I created the image. Send me an email with the combination you used or a link to it, and what the issue seems to be, and I'll see what I can do.<br>
+    <em>(And in case you're wondering, what happens when you select the same character twice isn't a bug, it's intended!)</em></dd>
 </dl>
 
 <em>Technical stuff</em>
