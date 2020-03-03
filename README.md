@@ -8,7 +8,7 @@ Developped in **2014**.
 Based on the TV show My Little Pony created by Hasbro, DHX Media and Studio B,
 and developed by Lauren Faust.
 
-The current live version is located at http://www.ponyar.net/pony_fusion/
+The current live version is located at https://fusion.ponyar.net/
 
 For more informations, have a look at the FAQ provided with the website.
 
