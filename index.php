@@ -20,7 +20,6 @@ Contact:
     E-mail: pony@tailszefox.net
 */
 
-header('X-UA-Compatible: IE=edge,chrome=1');
 include_once("ponies.php");
 
 if(isset($_GET["from"]))
