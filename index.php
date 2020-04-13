@@ -146,7 +146,7 @@ else
         </p>
     </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js" integrity="sha384-lifoBlbdwizTl3Yoe612uhI3AcOam/QtWkozF7SuiACaf5UJl5reOYu4MigVxrCH" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/konami.js"></script>
     <script src="js/base.js"></script>
