@@ -37,6 +37,14 @@ for($i = 0; $i < imagecolorstotal($from); $i++)
     }
 }
 
+// Retain transparency
+imagealphablending($from, false);
+imagesavealpha($from, true);
+imagefill($from, 0, 0, imagecolorallocatealpha($from, 255, 255, 255, 127));
+
+// Crop 1px from bottom to avoid showing swatch
+$from = imagecrop($from, ['x' => 0, 'y' => 0, 'width' => imagesx($from), 'height' => imagesy($from) - 1]);
+
 if(!$debug)
 {
     header('Content-Type: image/png');
