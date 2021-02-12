@@ -170,18 +170,18 @@ body
     
     position: fixed;
     
-    top: 20px;
+    top: 15px;
     right: 8%;
     
     border-radius: 20px;
     
-    font-size: 15pt;
+    font-size: 30pt;
 }
 
 #faqCloseButton
 {
     position: relative;
-    top: 3px;
+    top: 5px;
 
     cursor: pointer; 
 }
