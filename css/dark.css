@@ -1,0 +1,56 @@
+body
+{
+    color: #dbdbdb;
+    background-color: #2b2b2b;
+}
+
+a
+{
+    color: #00abff;
+}
+
+a:hover
+{
+    color: #3ebfff;
+}
+
+#header
+{
+    background-color: #373737;
+}
+
+#resultDiv
+{
+    background-color: #202020;
+    border-color: #4a4a4a;
+}
+
+.fusionChoice
+{
+    background-color: #343442;
+    color: #dbdbdb;
+    border-color: #262626;
+}
+
+.btn-info, .btn-info:hover, .btn-info:focus
+{
+    background-color: #000;
+    color: #dfdfdf;
+    background-image: linear-gradient(to bottom, #373737, #1e1e1e);
+}
+
+#legal
+{
+    background-color: #202020;
+    border-color: #4a4a4a;
+}
+
+#faq
+{
+    background-color: #202020;
+}
+
+#faqClose
+{
+    background-color: #202020;
+}
