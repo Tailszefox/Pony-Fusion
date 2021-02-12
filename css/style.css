@@ -39,6 +39,16 @@ body
     font-size: 36pt;
 }
 
+#darkSwitch
+{
+    float: right;
+    height: 100%;
+    position: relative;
+    top: -10px;
+    left: -15px;
+    cursor: pointer;
+}
+
 #content
 {
    padding-bottom: 50px;

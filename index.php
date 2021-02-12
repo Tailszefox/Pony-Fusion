@@ -48,7 +48,7 @@ else
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
     <link href="css/style-small.css" rel="stylesheet" media="screen and (max-width: 800px)">
-    <link href="css/dark.css" rel="stylesheet" media="screen and (prefers-color-scheme: dark)">
+    <link href="css/dark.css" rel="stylesheet" media="screen and (prefers-color-scheme: dark)" id="darkSheet">
 </head>
 <body>
     <div id="faqWrapper">
@@ -66,6 +66,7 @@ else
     <div id="container">
 
     <div id="header">
+        <img src="mode_light.png" id="darkSwitch" title="Switch to Dark Mode" data-mode="light">
         <p>Pony Fusion</p>
     </div>
 

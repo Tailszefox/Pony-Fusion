@@ -215,4 +215,40 @@ $(function ()
     var urlQuery = new URLSearchParams(window.location.search);
     if(urlQuery.get("from") == null || urlQuery.get("to") == null)
         randomizePonies(0);
+
+    // Switch to dark/light mode
+    function switchMode()
+    {
+        var darkSwitch = $("#darkSwitch")[0];
+
+        // Switch to dark mode
+        if(darkSwitch.dataset["mode"] == "light")
+        {
+            $("#darkSheet")[0].media = "screen";
+            darkSwitch.dataset["mode"] = "dark";
+            darkSwitch.src = "mode_dark.png";
+            darkSwitch.title = "Switch to Light Mode";
+        }
+        // Switch to light mode
+        else
+        {
+            $("#darkSheet")[0].media = "not all";
+            darkSwitch.dataset["mode"] = "light";
+            darkSwitch.src = "mode_light.png";
+            darkSwitch.title = "Switch to Dark Mode";
+        }
+    }
+
+    // If dark mode is the default, change the switch button
+    var darkDefault = window.matchMedia("screen and (prefers-color-scheme: dark)").matches;
+
+    if(darkDefault)
+    {
+        switchMode();
+    }
+
+    // Handle clicking on mode switch
+    $("#darkSwitch").click(function (e) {
+        switchMode();
+    });
 });
