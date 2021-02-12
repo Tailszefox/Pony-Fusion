@@ -49,6 +49,7 @@ else
     <link href="css/style.css" rel="stylesheet" media="screen">
     <link href="css/style-small.css" rel="stylesheet" media="screen and (max-width: 800px)">
     <link href="css/dark.css" rel="stylesheet" media="screen and (prefers-color-scheme: dark)" id="darkSheet">
+    <link href="css/print.css" rel="stylesheet" media="print">
 </head>
 <body>
     <div id="faqWrapper">
