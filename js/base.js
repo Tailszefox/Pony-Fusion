@@ -150,10 +150,11 @@ $(function ()
 
     $("#faqWrapper").click(function (e) {
         $("#faqWrapper").hide();
-    })
+    });
     
-    $("#faqWrapper").children().click(function(e) {
-        return false;
+    $("#faq").click(function(e) {
+        e.stopPropagation();
+        return true;
     });
     
     $("#faqLink").click(function (e) {
