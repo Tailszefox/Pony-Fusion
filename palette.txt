@@ -1,20 +1,20 @@
-This file is a reminder of what each colour in the image's palette corresponds to.
+This file is a reminder of what each color in the image's palette corresponds to.
 It's not used by the program, but without it, I'd forget which is which.
-Note that in the actual PNG file, the colour 0 actually codes the transparency.
-GIMP ignores it and starts the palette indexing on the next colour, though, at 0.
+Note that in the actual PNG file, the color 0 actually codes the transparency.
+GIMP ignores it and starts the palette indexing on the next color, though, at 0.
 
 0 : coat
 1 : coat outline
-2 : mane
-3 : mane (darker)
+2 : mane - primary color
+3 : mane - secondary color (same as primary if the mane is only one color)
 4 : mane outline
-5 : eyes
-6 : eyes smaller
-7 : eyeliner
-8 : cutie mark
-9 : cutie mark (darker)
-10 : eyelashes (black)
+5 : pupils
+6 : pupils - smaller part
+7 : eyeliner (same color as coat if no eyeliner)
+8 : cutie mark - primary color
+9 : cutie mark - secondary color
+10 : eyelashes (pretty much always black)
 11 : eyes (usually white)
-12 - 13 - 14 : supplementary colours
+12 - 13 - 14 : supplementary colors (usually for the mane, but sometimes for other stuff - same color as mane if not needed)
 15 : pupils (usually black)
 16 : teeth (white)
