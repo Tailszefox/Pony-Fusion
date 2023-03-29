@@ -17,7 +17,7 @@ if(!isset($fusionInclude))
     {
         $to = $_GET["to"];
         if(!isset($ponies[$to]))
-            die("Invalid combination");   
+            die("Invalid combination");
     }
     else
         $to = "";
