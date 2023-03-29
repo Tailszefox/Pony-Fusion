@@ -1,0 +1,3 @@
+# This directory is used to cache fusion as PNG files
+# This way, they are only generated once, saving CPU and RAM on the server, at the expense of disk space
+# Remember to delete the corresponding fusions in this directory if you make any change to an image in the /ponies directory, otherwise the changes won't be reflected
