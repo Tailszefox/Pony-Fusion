@@ -66,10 +66,18 @@ $(function ()
 
         var nbPonies = $("#from option").size();
 
+        function getRandomIndex(currentIndex, maxIndex) {
+            var newIndex;
+            do {
+                newIndex = Math.floor(Math.random() * maxIndex);
+            } while (newIndex === currentIndex);
+            return newIndex;
+        }
+
         if(which == 0)
         {
-            $("#from")[0].selectedIndex = Math.floor(Math.random() * nbPonies);
-            $("#to")[0].selectedIndex = Math.floor(Math.random() * nbPonies);
+            $("#from")[0].selectedIndex = getRandomIndex($("#from")[0].selectedIndex, nbPonies);
+            $("#to")[0].selectedIndex = getRandomIndex($("#to")[0].selectedIndex, nbPonies);
 
             if($("#from")[0].selectedIndex == $("#to")[0].selectedIndex)
             {
@@ -81,7 +89,7 @@ $(function ()
         }
         else if(which == 1)
         {
-            $("#from")[0].selectedIndex = Math.floor(Math.random() * nbPonies);
+            $("#from")[0].selectedIndex = getRandomIndex($("#from")[0].selectedIndex, nbPonies);
 
             if($("#from")[0].selectedIndex == $("#to")[0].selectedIndex)
             {
@@ -93,7 +101,7 @@ $(function ()
         }
         else if(which == 2)
         {
-            $("#to")[0].selectedIndex = Math.floor(Math.random() * nbPonies);
+            $("#to")[0].selectedIndex = getRandomIndex($("#to")[0].selectedIndex, nbPonies);
 
             if($("#from")[0].selectedIndex == $("#to")[0].selectedIndex)
             {
