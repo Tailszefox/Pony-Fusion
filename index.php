@@ -45,6 +45,8 @@ else
     <title>Pony Fusion</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f0f0f0" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#2b2b2b" media="(prefers-color-scheme: dark)">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
     <link href="css/style-small.css" rel="stylesheet" media="screen and (max-width: 800px)">
