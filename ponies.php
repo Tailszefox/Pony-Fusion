@@ -46,7 +46,7 @@ $ponies = array(
     "cheerilee" => array("filename" => './cheerilee.png',   "first" => "Cheeri",            "second" => "lee",      "source" => "https://www.deviantart.com/vector-brony/art/Cheerilee-355586783"),
     "granny"    => array("filename" => './granny.png',      "first" => "Granny",            "second" => " Smith",   "source" => "https://www.deviantart.com/kna/art/Granny-Smith-revectorized-269355154"),
     "spitfire"  => array("filename" => './spitfire.png',    "first" => "Spit",              "second" => "fire",     "source" => "https://www.deviantart.com/themedic22/art/Spitfire-312753935"),
-    "fleur"     => array("filename" => './fleur.png',       "first" => "Fleur",             "second" => " Dis Lee", "source" => "https://www.deviantart.com/ahkreem/art/The-Mare-of-Many-Names-272334805"),
+    "fleur"     => array("filename" => './fleur.png',       "first" => "Fleur",             "second" => " De Lis", "source" => "https://www.deviantart.com/ahkreem/art/The-Mare-of-Many-Names-272334805"),
     "break8"    => "Background ponies",
     "bonbon"    => array("filename" => './bonbon.png',      "first" => "Bon",               "second" => "bon",      "source" => "http://fav.me/d5ioklg"),
     "lyra"      => array("filename" => './lyra.png',        "first" => "Ly",                "second" => "ra",       "source" => "https://www.deviantart.com/stinkehund/art/Lyra-sitting-211573400"),
