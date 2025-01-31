@@ -46,21 +46,23 @@ if(!empty($from) && !empty($to))
 
     <p><a href="<?php echo $imgUrl ?>"><img id="resultImage" src="<?php echo $imgUrl ?>" /></a></p>
 
-    <p id="resultBottom"> Source: 
+    <p id="resultBottom">
         <?php 
         if(is_array($ponies[$from]["source"]))
         {
+            $i = 0;
             foreach($ponies[$from]["source"] as $source)
             {
+                $i++;
                 ?>
-                <a href="<?php echo $source ?>" class="sourceLink"><?php echo $source ?></a>
+                <a href="<?php echo $source ?>" class="sourceLink">Vector Source <?php echo $i ?></a>
                 <?php
             }
         }
         else
         {
             ?>
-            <a href="<?php echo $ponies[$from]["source"] ?>" class="sourceLink"><?php echo $ponies[$from]["source"] ?></a>
+            <a href="<?php echo $ponies[$from]["source"] ?>" class="sourceLink">Vector Source</a>
             <?php
         }
         ?>
