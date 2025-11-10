@@ -26,7 +26,10 @@ if(isset($_GET["from"]))
 {
     $from = $_GET["from"];
     if(!isset($ponies[$from]))
-        die("Invalid combination");
+    {
+        header("Location: /");
+        die();
+    }
 }
 else
     $from = "";
@@ -35,7 +38,10 @@ if(isset($_GET["to"]))
 {
     $to = $_GET["to"];
     if(!isset($ponies[$to]))
-        die("Invalid combination");   
+    {
+        header("Location: /");
+        die();
+    }
 }
 else
     $to = "";
